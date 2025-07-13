@@ -4,83 +4,165 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Terms of Service - MagicMenu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: 'Segoe UI', sans-serif;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f5f7fa;
       color: #333;
     }
+
+    .container {
+      max-width: 960px;
+      margin: 60px auto;
+      background-color: #fff;
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    }
+
     header {
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
-    header img {
-      width: 120px;
-      height: auto;
-      margin-top: 20px;
-    }
+
     h1 {
-      color: #c0392b;
-      border-bottom: 2px solid #c0392b;
-      padding-bottom: 10px;
-      margin-top: 10px;
+      font-size: 2rem;
+      color: #e74c3c;
+      border-bottom: 2px solid #e74c3c;
+      display: inline-block;
+      padding-bottom: 8px;
+      margin-bottom: 10px;
     }
+
     h2 {
-      color: #333;
-      margin-top: 30px;
-    }
-    p, ul {
+      font-size: 1.3rem;
+      color: #2c3e50;
+      margin-top: 35px;
       margin-bottom: 15px;
     }
+
+    p, li {
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
+
     ul {
       padding-left: 20px;
+      margin-bottom: 20px;
     }
+
+    strong {
+      color: #111;
+    }
+
+    a {
+      color: #e74c3c;
+      text-decoration: none;
+      transition: 0.2s ease;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     footer {
-      margin-top: 50px;
-      font-size: 0.9em;
+      margin-top: 60px;
       text-align: center;
+      font-size: 0.9rem;
       color: #888;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px;
+        padding: 25px 20px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+      }
+
+      p, li {
+        font-size: 0.95rem;
+      }
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="https://res.cloudinary.com/dcgskimn8/image/upload/v1751378543/icon_smizvh.png" alt="MagicMenu Logo" />
-    <h1>Terms of Service</h1>
-    <p><strong>Effective Date:</strong> July 1, 2025</p>
-    <p><strong>Developer:</strong> Krunal Jayale (Shasak)</p>
-  </header>
+  <div class="container">
+    <header>
+      <h1>Terms of Service - MagicMenu</h1>
+      <p><strong>Effective Date:</strong> July 1, 2025</p>
+      <p><strong>Developer:</strong> Krunal Jayale (Shasak)</p>
+    </header>
 
-  <h2>1. Acceptance of Terms</h2>
-  <p>By using the MagicMenu app, you agree to be bound by these terms. If you do not agree, please do not use the app.</p>
+    <h2>1. Acceptance of Terms</h2>
+    <p>By accessing or using MagicMenu, you agree to be bound by these Terms of Service. If you do not agree with any part of the terms, you must not use our services.</p>
 
-  <h2>2. User Accounts</h2>
-  <p>You are responsible for maintaining the confidentiality of your account information and for all activities under your account.</p>
+    <h2>2. Eligibility</h2>
+    <p>To use MagicMenu, you must be at least 13 years old and legally capable of entering into a binding agreement under applicable law.</p>
 
-  <h2>3. Service Description</h2>
-  <p>MagicMenu allows customers to browse and order food from nearby restaurants. We act as an intermediary between users and restaurants.</p>
+    <h2>3. User Accounts</h2>
+    <p>You are responsible for maintaining the confidentiality of your account credentials. You agree to notify us immediately if you suspect any unauthorized use of your account.</p>
 
-  <h2>4. Payments & Refunds</h2>
-  <p>Payments (if applicable) will be processed via third-party gateways in future versions. Refunds will be handled according to the policies defined when payments are enabled.</p>
+    <h2>4. Services Provided</h2>
+    <p>MagicMenu allows users to discover, order, and track food from partner restaurants and delivery providers. We facilitate the transaction but do not prepare or deliver food ourselves.</p>
 
-  <h2>5. User Conduct</h2>
-  <ul>
-    <li>Do not misuse or exploit the app in any way.</li>
-    <li>Do not submit false orders or abusive content.</li>
-  </ul>
+    <h2>5. Delivery & Timing</h2>
+    <p>Delivery times are estimates and may vary based on location, availability, weather, or traffic. We strive to ensure timely delivery but do not guarantee exact delivery windows.</p>
 
-  <h2>6. Modifications</h2>
-  <p>We may update these terms from time to time. Continued use of the app constitutes your acceptance of the revised terms.</p>
+    <h2>6. Payments</h2>
+    <p>Payments may be made via cash on delivery or future integrated payment gateways. You agree to pay the total amount for your order including taxes, fees, and delivery charges where applicable.</p>
 
-  <h2>7. Contact Us</h2>
-  <p>If you have any questions about these terms, please email us at <strong>support@magicmenu.in</strong></p>
+    <h2>7. Refund & Cancellation</h2>
+    <ul>
+      <li>Refunds may be issued only for failed or incorrect orders as determined by our team.</li>
+      <li>Cancellation may not be permitted after the restaurant has started preparing the order.</li>
+    </ul>
 
-  <footer>
-    &copy; 2025 MagicMenu | Built with ❤️ by Krunal Jayale (Shasak)
-  </footer>
+    <h2>8. User Responsibilities</h2>
+    <ul>
+      <li>Do not abuse, exploit, or reverse-engineer the app.</li>
+      <li>Do not submit fake orders or offensive content.</li>
+      <li>Do not impersonate others or provide false information.</li>
+    </ul>
+
+    <h2>9. Third-Party Services</h2>
+    <p>MagicMenu integrates with services like Google Maps, Firebase, and payment providers. We are not liable for any data collected or processed by these third parties. Review their respective privacy policies.</p>
+
+    <h2>10. Intellectual Property</h2>
+    <p>All content, branding, code, and design within MagicMenu is the intellectual property of Krunal Jayale (Shasak). Unauthorized copying, reuse, or distribution is strictly prohibited.</p>
+
+    <h2>11. Termination</h2>
+    <p>We reserve the right to suspend or permanently terminate user accounts that violate our policies, abuse services, or engage in fraudulent or harmful activity.</p>
+
+    <h2>12. Limitation of Liability</h2>
+    <p>We are not liable for indirect, incidental, or consequential damages arising from use of the app, delays in service, or third-party content. Use of MagicMenu is at your own risk.</p>
+
+    <h2>13. Changes to Terms</h2>
+    <p>We may modify these terms from time to time. Continued use of MagicMenu after updates means you accept the revised terms. We encourage you to review this page periodically.</p>
+
+    <h2>14. Governing Law</h2>
+    <p>These Terms are governed by and construed in accordance with the laws of India. Any disputes will be subject to the exclusive jurisdiction of the courts of Maharashtra, India.</p>
+
+    <h2>15. Contact Us</h2>
+    <p>For any questions regarding these Terms, please contact us at <a href="mailto:support@magicmenu.in">support@magicmenu.in</a>.</p>
+
+    <footer>
+      &copy; 2025 MagicMenu &nbsp;|&nbsp; Built with ❤️ by Shasak &nbsp;|&nbsp; <a href="https://magicmenu.in" target="_blank">www.magicmenu.in</a>
+    </footer>
+  </div>
 </body>
 </html>
